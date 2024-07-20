@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions
         (features ="src/test/resources/features",
                 glue ="stepDefinitions",
-                tags = "@CheckoutValidUser",
+                tags = "@ValidUserCheckout",
                 monochrome = true,
                 plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                         "html:Cucumber-Results/cucumber.html"})
-public class endToEndCheckoutRunner extends baseRunner {
+public class checkoutWithValidUserCredentialsRunner extends baseRunner {
 
 }

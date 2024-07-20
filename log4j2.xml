@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+<Loggers>
+    <Logger name="/src/test" level="debug" additivity="false">
+        <AppenderRef ref="STDOUT"/>
+        <AppenderRef ref="MyRoutingAppender"/>
+    </Logger>
+    <Root level="info">
+        <AppenderRef ref="STDOUT"/>
+    </Root>
+</Loggers>
+</Configuration>

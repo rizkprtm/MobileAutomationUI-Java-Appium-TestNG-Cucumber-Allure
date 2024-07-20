@@ -1,7 +1,7 @@
 @InvalidLogin
 Feature: Invalid login scenarios
 
-  @Negative
+  @NegativeCase
   Scenario Outline: Login with invalid credentials
     Given User enter username as "<invalidUsername>" and password as "<invalidPassword>"
     When User tap login button

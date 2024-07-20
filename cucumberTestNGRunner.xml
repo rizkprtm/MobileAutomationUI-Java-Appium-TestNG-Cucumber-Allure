@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SwagLabsUISuite" parallel="tests">
-    <test name="InvalidLoginTest">
+    <test name="SwagLabsUITest">
         <classes>
-            <class name="com.swaglabs.testRunner.baseRunner"></class>
+            <class name="testRunner.loginWithInvalidCredentialsRunner"/>
+            <class name="testRunner.checkoutWithValidUserCredentialsRunner"/>
+            <class name="testRunner.checkoutWithInvalidUserFirstName"/>
         </classes>
     </test>
 </suite>
